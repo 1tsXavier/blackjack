@@ -22,7 +22,7 @@ public class Deck
         }
     }
 
-    public card draw()
+    public Card draw()
     {
         int rand = (int) (Math.random() * deck.size());
     }  
