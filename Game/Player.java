@@ -33,4 +33,16 @@ public class Player
     public void recieve(Card card){
         pHand.add(card);
     }
+
+    public int getCash(){
+        return cash;
+    }
+
+    public void addCash(int gain){
+        cash += gain;
+    }
+
+    public void removeCash(int lose){
+        cash -= lose;
+    }
 }
