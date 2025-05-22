@@ -7,4 +7,8 @@ public class House
     public House(){
         houseHand = new ArrayList<Card>();
     }
+
+    public void recieve(Card card){
+        houseHand.add(card);
+    }
 }

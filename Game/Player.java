@@ -29,4 +29,8 @@ public class Player
         }
         return total;
     }
+
+    public void recieve(Card card){
+        pHand.add(card);
+    }
 }
