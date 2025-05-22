@@ -24,6 +24,6 @@ public class Deck
 
     public card draw()
     {
-        int rand = (int) Math.random(0,deck.size-1);
+        int rand = (int) (Math.random() * deck.size());
     }  
 }
