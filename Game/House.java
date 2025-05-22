@@ -1,7 +1,10 @@
+import java.util.*;
+
 public class House
 {
-    
-    public House(){
+    private ArrayList<Card> houseHand;
 
+    public House(){
+        houseHand = new ArrayList<Card>();
     }
 }

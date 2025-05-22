@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Deck
 {
@@ -24,8 +25,5 @@ public class Deck
     public card draw()
     {
         int rand = (int) Math.random(0,deck.size-1);
-    }
-
-    
-
+    }  
 }
